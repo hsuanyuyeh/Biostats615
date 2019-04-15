@@ -1,0 +1,13 @@
+Package: pcamix2
+Type: Package
+Title: A faster implementation of PCAmixdata package
+Version: 1.0
+Date: 2018-12-09
+Author: Qianhui Huang, Hsuan-Yu Yeh, Zheng Li
+Maintainer: Zheng Li <zlisph@umich.edu>
+Description: pcamix2 is a modified version of the R package PCAmixdata with C++ implementation to improve the computational efficiency with large dataset while retaining the computational accuracy
+License: GPL-3
+Imports: Rcpp (>= 1.0.0), RcppEigen (>= 0.3.3.5.0)
+LinkingTo: Rcpp, RcppEigen
+NeedsCompilation: yes
+Packaged: 2018-12-14 05:27:50 UTC; lizheng
